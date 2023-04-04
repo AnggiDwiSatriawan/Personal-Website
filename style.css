@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    border:1px solid red;
+}
+
+/* Inisiasi Warna & Layout*/
+:root{
+    --main-color: #647bff;
+    --body-color: #ffff;
+    --container-color: #171b3c;
+    --heading-color: #222321;
+    --box-color: #0d0f26;
+    --bg-color: #090a1a;
+}
+
+body{
+    color: var(--bg-color);
+    background: var(--body-color);
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+
+
+/* Bagian Navigasi */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: var(--body-color);
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.nav-link{
+    font-size: 0.94rem;
+    padding: 4px 8px;
+    border-radius: 0.2rem;
+    color: var(--bg-color);
+}
+
+.nav-link:hover{
+    color: var(--main-color);
+    background: var(--container-color);
+    transition: 0.3s all linear;
+}
+
+/*Bagian Home*/
+.home{
+min-height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 7rem;
+}
+
+.home-content{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #98a7fc;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.home-image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-text h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1.1rem;
+    color: var(--main-color);
+}
+
+.home-text h2{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.sosmed{
+    display: flex;
+    align-items: center;
+    column-gap: 0.3rem;
+}
+
+.sosmed .bx{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--bg-color);
+}
+
+.sosmed .bx:hover{
+    background: var(--main-color);
+    transition: 0.3s all linear;
+}
+
+
+/* Bagian About */
+.title{
+    font-size: 3rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.aboutme{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.about-text span{
+    color: var(--main-color);
+}
+
+.skill{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skill-content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.skill-content img{
+    display: inline;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-image{
+    padding: 5px;
+}
+
+
+/* Bagian Experience */
+.experiences{
+    font-size: 3rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
