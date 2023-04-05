@@ -268,13 +268,12 @@ padding-top: 7rem;
 }
 
 /* Bagian Blog */
-.experiences-container{
-    height: 500px;
+.blog-container{
+    height: 800px;
     max-width: 900px;
     margin: auto;
     width: 100%;
     padding-top: 60px;
-
 }
 
 .blog{
@@ -305,6 +304,11 @@ padding-top: 7rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     transition: 0.3s all linear;
     border: none;
+}
+
+.blog-box h5{
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.217);
 }
 
 /* Bagian Contact */
@@ -363,6 +367,7 @@ padding-top: 7rem;
     text-align: center;
     justify-content: center;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .footer p{
