@@ -303,7 +303,13 @@ padding-top: 7rem;
 }
 
 /* Footer */
+.footer-container{
+    max-height: 50px;
+}
+
 .footer{
     background-color: var(--main-color);
-    
+    height: 50px;
+    text-align: center;
+    justify-content: center;
 }
