@@ -312,4 +312,11 @@ padding-top: 7rem;
     height: 50px;
     text-align: center;
     justify-content: center;
+    color: #ffffff;
+}
+
+.footer p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
