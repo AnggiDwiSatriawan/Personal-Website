@@ -301,3 +301,9 @@ padding-top: 7rem;
 .button:hover{
     background-color: #7c8ad4;
 }
+
+/* Footer */
+.footer{
+    background-color: var(--main-color);
+    
+}
