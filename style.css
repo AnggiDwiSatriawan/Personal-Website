@@ -8,7 +8,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
-    border:1px solid red;
 }
 
 /* Inisiasi Warna & Layout*/
@@ -186,7 +185,7 @@ padding-top: 7rem;
     grid-template-columns: 30% 70%;
 }
 
-.about-text span{
+.about-content span{
     color: var(--main-color);
 }
 
@@ -215,9 +214,89 @@ padding-top: 7rem;
 
 
 /* Bagian Experience */
+.experiences-container{
+    height: 500px;
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+}
 .experiences{
     font-size: 3rem;
     color: var(--bg-color);
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.experience-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.experience-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff ;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.123);
+}
+
+.experience-box:hover{
+    background: #e2edff;
+    transition: 0.3s all linear;
+}
+.experience-box:hover h5{
+    color: black;
+    font-weight: 1000;
+    transition: 0.3s all linear;
+}
+
+.experience-box h2{
+    justify-content: center;
+}
+
+.experience-box h5{
+    justify-content: center;
+    color: rgba(252, 255, 254, 0.3);
+}
+
+.contact{
+    font-size: 3rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-contact{
+    display: grid;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    gap: 1rem;
+}
+
+.form-contact input .form-contact textarea{
+    outline: 1px solid #ff0000;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+}
+
+.button{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: #7c8ad4;
 }
