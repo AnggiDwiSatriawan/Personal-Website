@@ -168,6 +168,9 @@ padding-top: 7rem;
 
 
 /* Bagian About */
+.about-container{
+    padding-bottom: 60px;
+}
 .title{
     font-size: 3rem;
     color: var(--bg-color);
@@ -219,6 +222,8 @@ padding-top: 7rem;
     max-width: 900px;
     margin: auto;
     width: 100%;
+    padding-top: 60px;
+    
 }
 .experiences{
     font-size: 3rem;
@@ -262,6 +267,12 @@ padding-top: 7rem;
     color: rgba(252, 255, 254, 0.3);
 }
 
+
+/* Bagian Contact */
+.contact-container{
+    padding-top: 60px;
+}
+
 .contact{
     font-size: 3rem;
     color: var(--bg-color);
@@ -302,12 +313,13 @@ padding-top: 7rem;
     background-color: #7c8ad4;
 }
 
-/* Footer */
+/* Bagian Footer */
 .footer-container{
     max-height: 50px;
 }
 
 .footer{
+    display: grid;
     background-color: var(--main-color);
     height: 50px;
     text-align: center;
@@ -316,6 +328,7 @@ padding-top: 7rem;
 }
 
 .footer p{
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
